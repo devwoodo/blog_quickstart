@@ -1,0 +1,24 @@
+
+# 정적 사이트 결과물 (자동 생성, 제외 대상)
+public/
+resources/
+.hugo_build.lock
+
+
+# Hugo 실행 파일 (로컬에 설치된 경우)
+hugo.exe
+# hugo.linux
+# hugo.darwin
+
+
+# 운영 체제 관련 파일
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+
+# 외부 도구 및 빌드 디렉토리
+node_modules/
+dist/
+tmp/
+
